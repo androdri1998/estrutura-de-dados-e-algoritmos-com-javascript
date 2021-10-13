@@ -1,4 +1,4 @@
-const Stack = require('./stack');
+const Stack = require('../../Stack/stack');
 
 function decimalToBinary(decimalNumber) {
     const stack = new Stack();

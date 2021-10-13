@@ -1,4 +1,4 @@
-const Stack = require('./stack');
+const Stack = require('../../Stack/stack');
 
 function baseConverter(decimalNumber, base) {
     const stack = new Stack();

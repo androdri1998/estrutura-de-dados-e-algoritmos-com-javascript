@@ -1,4 +1,4 @@
-const Stack = require('./stack-array');
+const Stack = require('../../Stack/stack-array');
 
 const stack = new Stack();
 console.log(stack.isEmpty());

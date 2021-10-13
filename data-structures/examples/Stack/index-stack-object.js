@@ -1,4 +1,4 @@
-const Stack = require('./stack');
+const Stack = require('../../Stack/stack');
 
 const stack = new Stack();
 console.log(stack.isEmpty());
