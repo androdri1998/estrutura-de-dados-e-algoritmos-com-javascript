@@ -61,11 +61,21 @@ class LinkedList {
     }
 
     remove(element) {
-
+        const index = this.indexOf(element);
+        return this.removeAt(index);
     }
 
     indexOf(element) {
+        let current = this.head;
+        for (let i = 0; i < this.count && current != null; i++) {
+            if (this.equalsFn(element, current.element)) {
+                return i;
+            }
 
+            current = current.next;
+        }
+
+        return -1;
     }
 
     removeAt(index) {
@@ -94,8 +104,23 @@ class LinkedList {
         return this.count;
     }
 
-    toString() {
+    getHead() {
+        return this.head;
+    }
 
+    toString() {
+        if (this.head == null) {
+            return '';
+        }
+
+        let objString = `${this.head.element}`;
+        let current = this.head.next;
+        for (let i = 1; i < this.size() && current != null; i++) {
+            objString = `${objString}, ${current.element}`;
+            current = current.next;
+        }
+
+        return objString;
     }
 }
 
