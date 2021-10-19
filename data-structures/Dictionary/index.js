@@ -1,5 +1,5 @@
-const { defaultToString } = reuqire('./util');
-const ValuePair = reuqire('./value-pair');
+const { defaultToString } = require('./util');
+const ValuePair = require('./value-pair');
 
 class Dictionary {
     constructor(toStrFn = defaultToString) {
@@ -82,3 +82,5 @@ class Dictionary {
         return objString;
     }
 }
+
+module.exports = Dictionary;

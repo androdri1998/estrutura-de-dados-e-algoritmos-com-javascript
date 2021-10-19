@@ -9,3 +9,5 @@ function defaultToString(item) {
 
     return item.toString();
 }
+
+module.exports = { defaultToString }
