@@ -16,3 +16,16 @@ tree.insert(20);
 tree.insert(18);
 tree.insert(25);
 tree.insert(6);
+
+const printNode = (value) => console.log(value);
+console.log('----------------------- inOrderTraverse');
+tree.inOrderTraverse(printNode);
+console.log('----------------------- preOrderTravesse');
+tree.preOrderTravesse(printNode);
+console.log('----------------------- preOrderTravesse');
+tree.postOrderTravesse(printNode);
+console.log('----------------------- min, ', tree.min().key);
+console.log('----------------------- max, ', tree.max().key);
+
+console.log(tree.search(1) ? 'Key 1 found' : 'Key 1 not found');
+console.log(tree.search(8) ? 'Key 8 found' : 'Key 8 not found');
