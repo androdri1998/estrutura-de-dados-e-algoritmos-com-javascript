@@ -1,10 +1,18 @@
-const { compare, defaultCompare, Compare } = require('./util');
+const { defaultCompare, Compare } = require('./util');
 const Node = require('./node');
 
 class BinarySearchTree {
     constructor(compareFn = defaultCompare) {
         this.compareFn = compareFn;
         this.root = null;
+    }
+
+    getNodeHeight(node) {
+        if (node == null) {
+            return -1;
+        }
+
+        return Math.max(this.getNodeHeight(node.left), this.getNodeHeight(node.right)) + 1;
     }
 
     insertNode(node, key) {
