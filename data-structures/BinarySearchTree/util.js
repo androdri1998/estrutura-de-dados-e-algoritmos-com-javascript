@@ -3,6 +3,11 @@ const Compare = {
     BIGGER_THAN: 1
 };
 
+const Colors = {
+    BLACK: 'black',
+    RED: 'red',
+};
+
 function defaultCompare(a, b) {
     if (a === b) {
         return 0;
@@ -23,4 +28,5 @@ module.exports = {
     Compare,
     defaultCompare,
     BalanceFactor,
+    Colors,
 }
