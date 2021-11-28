@@ -1,5 +1,6 @@
 const Graph = require("../../Graph");
-const { breadthFirstSearch } = require('../../Graph/functions');
+
+const { breadthFirstSearch, BFS, createPathGraph } = require('../../Graph/functions');
 
 const graph = new Graph();
 const myVertices = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'];
@@ -22,5 +23,10 @@ graph.addEdge('E', 'I');
 console.log(graph.toString());
 
 const printVertex = value => console.log('Visited vertex: ' + value);
-
 breadthFirstSearch(graph, myVertices[0], printVertex);
+
+const shorterstPathA = BFS(graph, myVertices[0]);
+console.log(shorterstPathA);
+
+console.log(createPathGraph(myVertices, shorterstPathA));
+
