@@ -1,6 +1,6 @@
 const Graph = require("../../Graph");
 
-const { breadthFirstSearch, BFS, createPathGraph } = require('../../Graph/functions');
+const { breadthFirstSearch, BFS, createPathGraph, depthFirstSearch, DFS } = require('../../Graph/functions');
 
 const graph = new Graph();
 const myVertices = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'];
@@ -30,3 +30,5 @@ console.log(shorterstPathA);
 
 console.log(createPathGraph(myVertices, shorterstPathA));
 
+depthFirstSearch(graph, printVertex);
+console.log(DFS(graph));
