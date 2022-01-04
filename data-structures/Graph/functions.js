@@ -170,10 +170,34 @@ const DFS = graph => {
 }
 // end depthFirstSearch
 
+const getTopSort = (graph,) => {
+    const graphResult = DFS(graph);
+    const vertices = graph.getVertices();
+
+    const ftimes = graphResult.finished;
+    s = "";
+    for (let count = 0; count < vertices.length; count++) {
+        let max = 0;
+        let maxName = null;
+        for (i = 0; i < vertices.length; i++) {
+            if (ftimes[vertices[i]] > max) {
+                max = ftimes[vertices[i]];
+                maxName = vertices[i];
+            }
+        }
+
+        s += '-' + maxName;
+        delete ftimes[maxName];
+    }
+
+    return s;
+}
+
 module.exports = {
     breadthFirstSearch,
     BFS,
     createPathGraph,
     depthFirstSearch,
     DFS,
+    getTopSort
 }

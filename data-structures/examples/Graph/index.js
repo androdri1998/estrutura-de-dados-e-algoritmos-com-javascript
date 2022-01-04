@@ -1,6 +1,6 @@
 const Graph = require("../../Graph");
 
-const { breadthFirstSearch, BFS, createPathGraph, depthFirstSearch, DFS } = require('../../Graph/functions');
+const { breadthFirstSearch, BFS, createPathGraph, depthFirstSearch, DFS, getTopSort } = require('../../Graph/functions');
 
 const graph = new Graph();
 const myVertices = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'];
@@ -32,3 +32,21 @@ console.log(createPathGraph(myVertices, shorterstPathA));
 
 depthFirstSearch(graph, printVertex);
 console.log(DFS(graph));
+
+const graphTopSort = new Graph(true);
+const myVerticesTopSort = ['A', 'B', 'C', 'D', 'E', 'F'];
+for (i = 0; i < myVerticesTopSort.length; i++) {
+    graphTopSort.addVertex(myVerticesTopSort[i]);
+}
+graphTopSort.addEdge('A', 'C');
+graphTopSort.addEdge('A', 'D');
+graphTopSort.addEdge('B', 'D');
+graphTopSort.addEdge('B', 'E');
+graphTopSort.addEdge('C', 'F');
+graphTopSort.addEdge('F', 'E');
+
+const dfsGraphTopSort = DFS(graphTopSort);
+const topSort = getTopSort(graphTopSort);
+console.log('graph top sort', dfsGraphTopSort);
+console.log('graph top sort result', topSort);
+
