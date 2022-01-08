@@ -31,7 +31,6 @@ const dijkstra = (graph, src) => {
     dist[src] = 0;
     for (let i = 0; i < length - 1; i++) {
         const u = minDistance(dist, visited);
-        console.log(src, u);
         visited[u] = true;
         for (let v = 0; v < length; v++) {
             if (!visited[v] &&
