@@ -32,7 +32,7 @@ const modifiedBubbleSort = (array, compareFn = defaultCompare) => {
 }
 
 let array2 = createNonSortedArray(5);
-console.log('------------------')
+console.log('------------------');
 console.log(array2.join());
 array2 = modifiedBubbleSort(array2);
 console.log(array2.join());
