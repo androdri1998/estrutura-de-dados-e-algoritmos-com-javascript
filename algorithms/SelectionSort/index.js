@@ -1,4 +1,4 @@
-const { defaultCompare, Compare, swap, createNonSortedArray } = require("../../utils")
+const { defaultCompare, Compare, swap, createNonSortedArray } = require("../../utils");
 
 const selectionSort = (array, compareFn = defaultCompare) => {
     const { length } = array;
