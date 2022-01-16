@@ -22,3 +22,7 @@ let array = createNonSortedArray(5);
 console.log(array.join());
 array = insertionSort(array);
 console.log(array.join());
+
+module.exports = {
+    insertionSort,
+}
