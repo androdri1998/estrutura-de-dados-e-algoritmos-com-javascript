@@ -45,3 +45,5 @@ let array = [3, 5, 1, 6, 4, 7, 2];
 console.log(array.join());
 array = quickSort(array);
 console.log(array.join());
+
+module.exports = { quickSort };
