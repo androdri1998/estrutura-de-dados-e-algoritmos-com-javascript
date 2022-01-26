@@ -31,10 +31,15 @@ const createNonSortedArray = (size) => {
     return array;
 }
 
+const defaultDiff = (a, b) => {
+    return a - b;
+}
+
 module.exports = {
     Compare,
     defaultCompare,
     swap,
     createNonSortedArray,
     defaultEquals,
+    defaultDiff,
 }
