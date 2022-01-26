@@ -11,6 +11,10 @@ function defaultCompare(a, b) {
     return a < b ? Compare.LESS_THAN : Compare.BIGGER_THAN;
 }
 
+function defaultEquals(a, b) {
+    return a === b;
+}
+
 function swap(array, a, b) {
     const temp = array[a];
     array[a] = array[b];
@@ -31,4 +35,5 @@ module.exports = {
     defaultCompare,
     swap,
     createNonSortedArray,
+    defaultEquals,
 }
