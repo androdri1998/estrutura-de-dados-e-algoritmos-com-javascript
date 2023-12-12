@@ -44,6 +44,31 @@ examples inspired at the book "Estrutura de dados e algoritmos com Javascript"
 
 ## Data Structures
 
+| Name                                                                                                      | Description                                                                     |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [Fibonacci with Arrays](/data-structures/Arrays/fibonacci/index.js)                                       | Fibonacci with Arrays                                                           |
+| [AVL Tree Data Structure](/data-structures/AVLTree/index.js)                                              | AVL Tree Data Strucuture                                                        |
+| [Binary Search Tree Data Structure](/data-structures/BinarySearchTree/index.js)                           | Binary Search Tree Data Strucuture                                              |
+| [Circular Linked List Data Structure](/data-structures/CircularLinkedList/index.js)                       | Circular Linked List Data Strucuture                                            |
+| [Deque Data Structure](/data-structures/Deque/deque.js)                                                   | Deque Data Strucuture                                                           |
+| [Dictionary Data Structure](/data-structures/Dictionary/index.js)                                         | Dictionary Data Strucuture                                                      |
+| [Double Linked List Data Structure](/data-structures/DoubleLinkedList/index.js)                           | Double Linked List Data Strucuture                                              |
+| [Graph Data Structure](/data-structures/Graph/index.js)                                                   | Graph Data Strucuture                                                           |
+| [Graph function](/data-structures/Graph/functions.js)                                                     | Graph functions(breadth first search, depth first search and depth first visit) |
+| [Hash Table Data Structure](/data-structures/HashTable/index.js)                                          | Hash Table Data Structure                                                       |
+| [Hash Table Linear Probing Data Structure](/data-structures/HashTable/hash-table-linear-probing.js)       | Hash Table Linear Probing Data Structure                                        |
+| [Hash Table Separate Chaining Data Structure](/data-structures/HashTable/hash-table-separate-chaining.js) | Hash Table Separate Chaining Data Structure                                     |
+| [Linked List Data Structure](/data-structures/LinkedList/linked-list.js)                                  | Linked List Data Structure                                                      |
+| [Max heap Data Structure](/data-structures/MaxHeap/index.js)                                              | Max Heap Data Structure                                                         |
+| [Min heap Data Structure](/data-structures/MinHeap/index.js)                                              | Min Heap Data Structure                                                         |
+| [Queue Data Data Structure](/data-structures/Queue/queue.js)                                              | Queue Data Structure                                                            |
+| [Red Black Tree Data Structure](/data-structures/RedBlackTree/index.js)                                   | Red Black Tree Data Structure                                                   |
+| [Set Data Structure](/data-structures/Set/index.js)                                                       | Set Data Structure                                                              |
+| [Sort Linked List Data Structure](/data-structures/SortedLinkedList/index.js)                             | Sort Linked List Data Structure                                                 |
+| [Stack Data Structure](/data-structures/Stack/stack.js)                                                   | Stack Data Structure                                                            |
+| [Stack using Array Data Structure](/data-structures/Stack/stack-array.js)                                 | Stack using Array Data Structure                                                |
+| [Stack using Linked List Data Structure](/data-structures/StackLinkedList/index.js)                       | Stack using Linked List Data Structure                                          |
+
 ## Functions
 
 | Name                                 | Description        |
