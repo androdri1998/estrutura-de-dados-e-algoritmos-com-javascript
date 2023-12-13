@@ -69,6 +69,28 @@ examples inspired at the book "Estrutura de dados e algoritmos com Javascript"
 | [Stack using Array Data Structure](/data-structures/Stack/stack-array.js)                                 | Stack using Array Data Structure                                                |
 | [Stack using Linked List Data Structure](/data-structures/StackLinkedList/index.js)                       | Stack using Linked List Data Structure                                          |
 
+## Data Structures Examples
+
+| Name                                                                                                   | Description                                |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
+| [Binary Search use example](/data-structures/examples/BinarySearchTree/index.js)                       | Binary Search use example                  |
+| [Deque use example](/data-structures/examples/Deque/deque.js)                                          | Deque use example                          |
+| [Deque use example in a palindrome](/data-structures/examples/Deque/palindromo.js)                     | Deque use example in a palindrome          |
+| [Dictionary use example](/data-structures/examples/Dictionary/index.js)                                | Dictionary use example                     |
+| [Graph use example](/data-structures/examples/Graph/index.js)                                          | Graph use example                          |
+| [Hash Table use example](/data-structures/examples/HashTable/index.js)                                 | Hash Table use example                     |
+| [Hash Table linear probing use example](/data-structures/examples/HashTableLinearProbing/index.js)     | Hash Table linear probing use example      |
+| [Linked List use example](/data-structures/examples/LinkedList/linked-list.js)                         | Linked List use example                    |
+| [Max heap use example](/data-structures/examples/MaxHeap/index.js)                                     | Max heap use example                       |
+| [Min heap use example](/data-structures/examples/MinHeap/index.js)                                     | Min heap use example                       |
+| [Queue use example](/data-structures/examples/Queue/queue.js)                                          | Queue use example                          |
+| [Queue use at hot potato example](/data-structures/examples/Queue/hot-potato.js)                       | Queue use at hot potato example            |
+| [Set use example](/data-structures/examples/Set/index.js)                                              | Set use example                            |
+| [Stack use at decimal to binary example](/data-structures/examples/Stack/decimal-to-binary.js)         | Stack use at decimal to binary example     |
+| [Stack use at stack array example](/data-structures/examples/Stack/index-stack-array.js)               | Stack use at stack array example           |
+| [Stack use at stack object example](/data-structures/examples/Stack/index-stack-object.js)             | Stack use at stack object example          |
+| [Stack use at number base converter example](/data-structures/examples/Stack/number-base-converter.js) | Stack use at number base converter example |
+
 ## Functions
 
 | Name                                 | Description        |
